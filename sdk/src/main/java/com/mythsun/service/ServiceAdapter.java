@@ -8,7 +8,9 @@ import android.os.IBinder;
 import android.os.RemoteException;
 import android.util.Log;
 
-
+/**
+ * This class is used for SDK self-testing
+ */
 public class ServiceAdapter {
     private static String TAG = "ServiceAdapter";
     private static String NEED_SERVICE = "com.mythsun.service.action1";
